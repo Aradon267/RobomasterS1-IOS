@@ -1,0 +1,51 @@
+[
+	{
+		"funcName":"MOVE",
+		"funcDescStart":"Commands the robot to move",
+		"funcDescRest":" for a given amount of time with given speed for each wheel.",
+		"funcPara":"The function gets 5 parameters: FL wheel speed(-100 to 100) FR wheel speed(-100 to 100) BL wheel speed(-100 to 100) BR wheel speed(-100 to 100) all in rounds per minute to set the speed of each wheel and time in seconds(1-100) to set the amount of time.",
+		"imgSrc":"https://images.everydayhealth.com/images/pain-management/back-pain/cs-back-pain-driving-1440x810.jpg"
+	},
+	{
+		"funcName":"BLINK",
+		"funcDescStart":"Makes the LEDs of the robot blink",
+		"funcDescRest":" to the color you enter for a given amount of time.",
+		"funcPara":"The function gets 4 parameters: R(0-255) B(0-255) G(0-255) to indicate the color and time in seconds(1-100) to set the amount of time.",
+		"imgSrc":"https://www.cnet.com/a/img/1lJNHSz9rBUpIIeNpyIhcULHQtA=/1200x675/2021/04/05/0461e12f-d099-4621-86f9-9a6ba66111ce/gosund.jpg"
+	},
+	{
+		"funcName":"SHOOT",
+		"funcDescStart":"Commands the robot to shoot once.",
+		"funcDescRest":"",
+		"funcPara":"The function gets no parameters.",
+		"imgSrc":"https://cdn.britannica.com/19/65719-050-B3CCD2AF/Cannon-Antietam-National-Battlefield-Maryland.jpg"
+	},
+	{
+		"funcName":"CUSTOM",
+		"funcDescStart":"Executes a custom command.",
+		"funcDescRest":"",
+		"funcPara":"The function gets the the custom command as a parameter.",
+		"imgSrc":"https://t3.ftcdn.net/jpg/03/67/25/32/360_F_367253290_6TxOfCSQstFoHzbU9HyNoc7AVJzgqQem.jpg"
+	},
+	{
+		"funcName":"PERMANENT COLOR",
+		"funcDescStart":"Changes the LEDs of the robot when it's executing",
+		"funcDescRest":" commands based on your choice from the Color Options view.",
+		"funcPara":"The function gets the R(0-255) B(0-255) G(0-255) from the TextFields or from what you will click in the picture. You can also take a picture to use instead.",
+		"imgSrc":"https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2012/08/thumb_720_450_LED_shutterstock_62486296.jpg"
+	},
+	{
+		"funcName":"SAVE PROGRAM",
+		"funcDescStart":"Saving the program the user wrote",
+		"funcDescRest":" to the firebase.",
+		"funcPara":"The function gets no parameters.",
+		"imgSrc":"https://www.downloadclipart.net/medium/save-button-png-transparent-photo.png"
+	},
+	{
+		"funcName":"LOAD PROGRAM",
+		"funcDescStart":"Loads the programs the user wrote",
+		"funcDescRest":" from the firebase and allowing the user to keep working on it.",
+		"funcPara":"The function gets no parameters.",
+		"imgSrc":"https://w7.pngwing.com/pngs/702/417/png-transparent-input-load-file-document-data-icon-loading-symbol-downloading-thumbnail.png"
+	}
+]

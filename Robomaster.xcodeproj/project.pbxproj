@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E406457928E705C2004A5973 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406457828E705C2004A5973 /* LoginView.swift */; };
+		E406457B28E707AB004A5973 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E406457A28E707AA004A5973 /* GoogleService-Info.plist */; };
+		E406457E28E708A8004A5973 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E406457D28E708A8004A5973 /* FirebaseDatabase */; };
+		E406458028E708A8004A5973 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E406457F28E708A8004A5973 /* FirebaseDatabaseSwift */; };
+		E406458228E708A8004A5973 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E406458128E708A8004A5973 /* FirebaseFirestore */; };
+		E406458428E708A8004A5973 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E406458328E708A8004A5973 /* FirebaseStorage */; };
+		E406458628E70D8E004A5973 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406458528E70D8E004A5973 /* User.swift */; };
+		E406458828E7108F004A5973 /* ReadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406458728E7108F004A5973 /* ReadData.swift */; };
+		E406458A28E71E4F004A5973 /* ConnectRMSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406458928E71E4F004A5973 /* ConnectRMSView.swift */; };
+		E451B48E28E1EFC300E045EB /* RobomasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B48D28E1EFC300E045EB /* RobomasterApp.swift */; };
+		E451B49028E1EFC300E045EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B48F28E1EFC300E045EB /* ContentView.swift */; };
+		E451B49228E1EFC400E045EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E451B49128E1EFC400E045EB /* Assets.xcassets */; };
+		E451B49528E1EFC400E045EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E451B49428E1EFC400E045EB /* Preview Assets.xcassets */; };
+		E474D4D328F08F040021A23C /* CommandHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = E474D4D228F08F040021A23C /* CommandHost.swift */; };
+		E480048528E8711500A75ED7 /* SIgnupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480048428E8711500A75ED7 /* SIgnupView.swift */; };
+		E480048728E873E200A75ED7 /* WriteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480048628E873E200A75ED7 /* WriteData.swift */; };
+		E480048D28E890EB00A75ED7 /* RobomasterClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480048C28E890EB00A75ED7 /* RobomasterClass.swift */; };
+		E480048F28E8911900A75ED7 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480048E28E8911900A75ED7 /* Server.swift */; };
+		E480049128E8918600A75ED7 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480049028E8918600A75ED7 /* Queue.swift */; };
+		E491922528F068910086AF3A /* CommandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491922428F068910086AF3A /* CommandView.swift */; };
+		E491922728F0797C0086AF3A /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491922628F0797C0086AF3A /* Command.swift */; };
+		E49A2DD628F1A0C300064883 /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A2DD528F1A0C300064883 /* OptionsView.swift */; };
+		E49A2DD928F1B0C300064883 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = E49A2DD828F1B0C300064883 /* AlertToast */; };
+		E49A2DDC28F1BC8300064883 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A2DDB28F1BC8300064883 /* TutorialView.swift */; };
+		E49A2DE028F1C9E600064883 /* SaveProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A2DDF28F1C9E600064883 /* SaveProgramView.swift */; };
+		E49A2DE228F1CCB000064883 /* LoadProgramsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A2DE128F1CCB000064883 /* LoadProgramsView.swift */; };
+		E49A2DE628F1D59E00064883 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A2DE528F1D59E00064883 /* Program.swift */; };
+		E49A2DE828F1E0B700064883 /* ProgramRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A2DE728F1E0B700064883 /* ProgramRow.swift */; };
+		E49A2DEC28F1F77B00064883 /* TutorialRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A2DEB28F1F77B00064883 /* TutorialRow.swift */; };
+		E49A2DEE28F1F7D600064883 /* RobotFunctionTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A2DED28F1F7D600064883 /* RobotFunctionTutorial.swift */; };
+		E49A2DF028F1F87400064883 /* LocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A2DEF28F1F87400064883 /* LocalData.swift */; };
+		E49A2DF228F1FE9100064883 /* tutorial.json in Resources */ = {isa = PBXBuildFile; fileRef = E49A2DF128F1FE9100064883 /* tutorial.json */; };
+		E49A2DF428F1FEE900064883 /* TutorialDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49A2DF328F1FEE900064883 /* TutorialDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E406457828E705C2004A5973 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E406457A28E707AA004A5973 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E406458528E70D8E004A5973 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E406458728E7108F004A5973 /* ReadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadData.swift; sourceTree = "<group>"; };
+		E406458928E71E4F004A5973 /* ConnectRMSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectRMSView.swift; sourceTree = "<group>"; };
+		E451B48A28E1EFC300E045EB /* Robomaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Robomaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E451B48D28E1EFC300E045EB /* RobomasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobomasterApp.swift; sourceTree = "<group>"; };
+		E451B48F28E1EFC300E045EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E451B49128E1EFC400E045EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E451B49428E1EFC400E045EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E474D4D228F08F040021A23C /* CommandHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandHost.swift; sourceTree = "<group>"; };
+		E480048428E8711500A75ED7 /* SIgnupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnupView.swift; sourceTree = "<group>"; };
+		E480048628E873E200A75ED7 /* WriteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteData.swift; sourceTree = "<group>"; };
+		E480048C28E890EB00A75ED7 /* RobomasterClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobomasterClass.swift; sourceTree = "<group>"; };
+		E480048E28E8911900A75ED7 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		E480049028E8918600A75ED7 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		E491922428F068910086AF3A /* CommandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandView.swift; sourceTree = "<group>"; };
+		E491922628F0797C0086AF3A /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		E49A2DD528F1A0C300064883 /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		E49A2DDB28F1BC8300064883 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		E49A2DDF28F1C9E600064883 /* SaveProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveProgramView.swift; sourceTree = "<group>"; };
+		E49A2DE128F1CCB000064883 /* LoadProgramsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadProgramsView.swift; sourceTree = "<group>"; };
+		E49A2DE528F1D59E00064883 /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		E49A2DE728F1E0B700064883 /* ProgramRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramRow.swift; sourceTree = "<group>"; };
+		E49A2DEB28F1F77B00064883 /* TutorialRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialRow.swift; sourceTree = "<group>"; };
+		E49A2DED28F1F7D600064883 /* RobotFunctionTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotFunctionTutorial.swift; sourceTree = "<group>"; };
+		E49A2DEF28F1F87400064883 /* LocalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalData.swift; sourceTree = "<group>"; };
+		E49A2DF128F1FE9100064883 /* tutorial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tutorial.json; sourceTree = "<group>"; };
+		E49A2DF328F1FEE900064883 /* TutorialDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E451B48728E1EFC300E045EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E406458028E708A8004A5973 /* FirebaseDatabaseSwift in Frameworks */,
+				E406458428E708A8004A5973 /* FirebaseStorage in Frameworks */,
+				E406457E28E708A8004A5973 /* FirebaseDatabase in Frameworks */,
+				E49A2DD928F1B0C300064883 /* AlertToast in Frameworks */,
+				E406458228E708A8004A5973 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E451B48128E1EFC300E045EB = {
+			isa = PBXGroup;
+			children = (
+				E451B48C28E1EFC300E045EB /* Robomaster */,
+				E451B48B28E1EFC300E045EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E451B48B28E1EFC300E045EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E451B48A28E1EFC300E045EB /* Robomaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E451B48C28E1EFC300E045EB /* Robomaster */ = {
+			isa = PBXGroup;
+			children = (
+				E451B48D28E1EFC300E045EB /* RobomasterApp.swift */,
+				E406457A28E707AA004A5973 /* GoogleService-Info.plist */,
+				E451B49128E1EFC400E045EB /* Assets.xcassets */,
+				E480048B28E890BF00A75ED7 /* NetworkHandlers */,
+				E480048A28E885E100A75ED7 /* DataModels */,
+				E480048928E885BF00A75ED7 /* Views */,
+				E480048828E8858B00A75ED7 /* DataHandlers */,
+				E451B49328E1EFC400E045EB /* Preview Content */,
+			);
+			path = Robomaster;
+			sourceTree = "<group>";
+		};
+		E451B49328E1EFC400E045EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E451B49428E1EFC400E045EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E474D4D128F08EE80021A23C /* CommandSection */ = {
+			isa = PBXGroup;
+			children = (
+				E49A2DE328F1D4E400064883 /* SectionManagers */,
+				E49A2DDA28F1BAC300064883 /* Options */,
+			);
+			path = CommandSection;
+			sourceTree = "<group>";
+		};
+		E480048828E8858B00A75ED7 /* DataHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				E49A2DF128F1FE9100064883 /* tutorial.json */,
+				E480048628E873E200A75ED7 /* WriteData.swift */,
+				E406458728E7108F004A5973 /* ReadData.swift */,
+				E49A2DEF28F1F87400064883 /* LocalData.swift */,
+			);
+			path = DataHandlers;
+			sourceTree = "<group>";
+		};
+		E480048928E885BF00A75ED7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E451B48F28E1EFC300E045EB /* ContentView.swift */,
+				E49A2DE428F1D53000064883 /* ConnectionSection */,
+				E474D4D128F08EE80021A23C /* CommandSection */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E480048A28E885E100A75ED7 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				E406458528E70D8E004A5973 /* User.swift */,
+				E480049028E8918600A75ED7 /* Queue.swift */,
+				E491922628F0797C0086AF3A /* Command.swift */,
+				E49A2DE528F1D59E00064883 /* Program.swift */,
+				E49A2DED28F1F7D600064883 /* RobotFunctionTutorial.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		E480048B28E890BF00A75ED7 /* NetworkHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				E480048C28E890EB00A75ED7 /* RobomasterClass.swift */,
+				E480048E28E8911900A75ED7 /* Server.swift */,
+			);
+			path = NetworkHandlers;
+			sourceTree = "<group>";
+		};
+		E49A2DDA28F1BAC300064883 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				E49A2DEA28F1F76500064883 /* TutorialViews */,
+				E49A2DE928F1F74900064883 /* ProgramViews */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		E49A2DE328F1D4E400064883 /* SectionManagers */ = {
+			isa = PBXGroup;
+			children = (
+				E474D4D228F08F040021A23C /* CommandHost.swift */,
+				E491922428F068910086AF3A /* CommandView.swift */,
+				E49A2DD528F1A0C300064883 /* OptionsView.swift */,
+			);
+			path = SectionManagers;
+			sourceTree = "<group>";
+		};
+		E49A2DE428F1D53000064883 /* ConnectionSection */ = {
+			isa = PBXGroup;
+			children = (
+				E406457828E705C2004A5973 /* LoginView.swift */,
+				E480048428E8711500A75ED7 /* SIgnupView.swift */,
+				E406458928E71E4F004A5973 /* ConnectRMSView.swift */,
+			);
+			path = ConnectionSection;
+			sourceTree = "<group>";
+		};
+		E49A2DE928F1F74900064883 /* ProgramViews */ = {
+			isa = PBXGroup;
+			children = (
+				E49A2DDF28F1C9E600064883 /* SaveProgramView.swift */,
+				E49A2DE128F1CCB000064883 /* LoadProgramsView.swift */,
+				E49A2DE728F1E0B700064883 /* ProgramRow.swift */,
+			);
+			path = ProgramViews;
+			sourceTree = "<group>";
+		};
+		E49A2DEA28F1F76500064883 /* TutorialViews */ = {
+			isa = PBXGroup;
+			children = (
+				E49A2DDB28F1BC8300064883 /* TutorialView.swift */,
+				E49A2DEB28F1F77B00064883 /* TutorialRow.swift */,
+				E49A2DF328F1FEE900064883 /* TutorialDetails.swift */,
+			);
+			path = TutorialViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E451B48928E1EFC300E045EB /* Robomaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E451B49828E1EFC400E045EB /* Build configuration list for PBXNativeTarget "Robomaster" */;
+			buildPhases = (
+				E451B48628E1EFC300E045EB /* Sources */,
+				E451B48728E1EFC300E045EB /* Frameworks */,
+				E451B48828E1EFC300E045EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Robomaster;
+			packageProductDependencies = (
+				E406457D28E708A8004A5973 /* FirebaseDatabase */,
+				E406457F28E708A8004A5973 /* FirebaseDatabaseSwift */,
+				E406458128E708A8004A5973 /* FirebaseFirestore */,
+				E406458328E708A8004A5973 /* FirebaseStorage */,
+				E49A2DD828F1B0C300064883 /* AlertToast */,
+			);
+			productName = Robomaster;
+			productReference = E451B48A28E1EFC300E045EB /* Robomaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E451B48228E1EFC300E045EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E451B48928E1EFC300E045EB = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = E451B48528E1EFC300E045EB /* Build configuration list for PBXProject "Robomaster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E451B48128E1EFC300E045EB;
+			packageReferences = (
+				E406457C28E708A8004A5973 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				E49A2DD728F1B0C300064883 /* XCRemoteSwiftPackageReference "AlertToast" */,
+			);
+			productRefGroup = E451B48B28E1EFC300E045EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E451B48928E1EFC300E045EB /* Robomaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E451B48828E1EFC300E045EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E451B49528E1EFC400E045EB /* Preview Assets.xcassets in Resources */,
+				E49A2DF228F1FE9100064883 /* tutorial.json in Resources */,
+				E451B49228E1EFC400E045EB /* Assets.xcassets in Resources */,
+				E406457B28E707AB004A5973 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E451B48628E1EFC300E045EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49A2DE628F1D59E00064883 /* Program.swift in Sources */,
+				E49A2DF428F1FEE900064883 /* TutorialDetails.swift in Sources */,
+				E480048F28E8911900A75ED7 /* Server.swift in Sources */,
+				E49A2DEE28F1F7D600064883 /* RobotFunctionTutorial.swift in Sources */,
+				E406458628E70D8E004A5973 /* User.swift in Sources */,
+				E406457928E705C2004A5973 /* LoginView.swift in Sources */,
+				E49A2DD628F1A0C300064883 /* OptionsView.swift in Sources */,
+				E480049128E8918600A75ED7 /* Queue.swift in Sources */,
+				E49A2DE228F1CCB000064883 /* LoadProgramsView.swift in Sources */,
+				E491922728F0797C0086AF3A /* Command.swift in Sources */,
+				E451B49028E1EFC300E045EB /* ContentView.swift in Sources */,
+				E480048528E8711500A75ED7 /* SIgnupView.swift in Sources */,
+				E474D4D328F08F040021A23C /* CommandHost.swift in Sources */,
+				E406458828E7108F004A5973 /* ReadData.swift in Sources */,
+				E49A2DE828F1E0B700064883 /* ProgramRow.swift in Sources */,
+				E49A2DF028F1F87400064883 /* LocalData.swift in Sources */,
+				E451B48E28E1EFC300E045EB /* RobomasterApp.swift in Sources */,
+				E406458A28E71E4F004A5973 /* ConnectRMSView.swift in Sources */,
+				E49A2DEC28F1F77B00064883 /* TutorialRow.swift in Sources */,
+				E49A2DDC28F1BC8300064883 /* TutorialView.swift in Sources */,
+				E480048D28E890EB00A75ED7 /* RobomasterClass.swift in Sources */,
+				E480048728E873E200A75ED7 /* WriteData.swift in Sources */,
+				E49A2DE028F1C9E600064883 /* SaveProgramView.swift in Sources */,
+				E491922528F068910086AF3A /* CommandView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E451B49628E1EFC400E045EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E451B49728E1EFC400E045EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E451B49928E1EFC400E045EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Robomaster/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aradon267.Robomaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E451B49A28E1EFC400E045EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Robomaster/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aradon267.Robomaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E451B48528E1EFC300E045EB /* Build configuration list for PBXProject "Robomaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E451B49628E1EFC400E045EB /* Debug */,
+				E451B49728E1EFC400E045EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E451B49828E1EFC400E045EB /* Build configuration list for PBXNativeTarget "Robomaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E451B49928E1EFC400E045EB /* Debug */,
+				E451B49A28E1EFC400E045EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E406457C28E708A8004A5973 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		E49A2DD728F1B0C300064883 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E406457D28E708A8004A5973 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E406457C28E708A8004A5973 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		E406457F28E708A8004A5973 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E406457C28E708A8004A5973 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		E406458128E708A8004A5973 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E406457C28E708A8004A5973 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E406458328E708A8004A5973 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E406457C28E708A8004A5973 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		E49A2DD828F1B0C300064883 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E49A2DD728F1B0C300064883 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E451B48228E1EFC300E045EB /* Project object */;
+}
